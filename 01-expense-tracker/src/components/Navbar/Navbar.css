@@ -1,0 +1,14 @@
+.navbar {
+    width: 50rem;
+    max-width: 95%;
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+
+.navbar h1 {
+    font-size: 40px;
+}
+
+.navbar span {
+    color: #DB5461;
+}
