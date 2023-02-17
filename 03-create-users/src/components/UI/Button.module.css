@@ -20,13 +20,13 @@
 .button.solid:hover {
     /* background: #741188; */
     /* border-color: #741188; */
-    background: #628395;
-    border-color: #628395;
+    background: #4A7B9D;
+    border-color: #4A7B9D;
 }
 
 .button.solid:active {
-    background: #405763;
-    border-color: #405763;
+    background: #416C8B;
+    border-color: #34566F;
 }
 
 .button.solid:focus {
