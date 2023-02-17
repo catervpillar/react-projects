@@ -29,7 +29,6 @@ const AddUser = (props) => {
             return;
         }
 
-        console.log(enteredUsername, enteredAge);
         props.onAddUser(enteredUsername, enteredAge);
         setUsername('');
         setAge('');
@@ -51,12 +50,15 @@ const AddUser = (props) => {
         <div>
             {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}></ErrorModal>}
             <Card className={styles.input}>
+                <h2>Add your user!</h2>
                 <form onSubmit={addUserHandler}>
                     <label htmlFor='username'>Username</label>
                     <input id="username" type="text" value={enteredUsername} onChange={usernameChangeHandler}></input>
                     <label htmlFor='age'>Age (years)</label>
                     <input id="age" type="number" value={enteredAge} onChange={ageChangeHandler}></input>
-                    <Button type='submit'>Add User</Button>
+                    <div className={styles.actions}>
+                        <Button type='submit'>Add User</Button>
+                    </div>
                 </form>
             </Card>
         </div>

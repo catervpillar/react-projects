@@ -1,5 +1,5 @@
 # React Create Users
-Extremely simple project for creating users by typing in basic information. Implementation of modal dialogs for error messages displaying.
+Extremely simple project for creating users by typing in basic information. Implementation of modal dialogs for displaying error messages.
 
 ## Usage
 Once the repository has been cloned, open the terminal inside the project folder and use the following command to install all the dependencies needed:

@@ -4,7 +4,7 @@ import styles from './Button.module.css';
 
 const Button = (props) => {
     return <button
-        className={styles.button}
+        className={`${styles.button} ${props.fill === 'outline' ? styles.outline : styles.solid}`}
         type={props.type || 'button'}
         onClick={props.onClick}
     >

@@ -1,5 +1,6 @@
 .users {
     margin: 2rem auto;
+    margin-top: 0;
     width: 90%;
     max-width: 40rem;
 }
@@ -11,6 +12,16 @@
 
 .users li {
     border: 1px solid #ccc;
+    border-radius: 6px;
     margin: 0.5rem 0;
     padding: 0.5rem;
+}
+
+.no-content {
+    /* background: #e1d1e3; */
+    color: #fff;
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    text-align: center;
 }

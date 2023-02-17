@@ -1,18 +1,44 @@
 .button {
     font: inherit;
-    border: 1px solid #4f005f;
-    background: #4f005f;
-    color: white;
-    padding: 0.25rem 1rem;
+    /* border: 1px solid #4f005f; */
+    border: 1px solid;
+    border-radius: 6px;
+    /* background: #4f005f; */
+    /* padding: 0.25rem 1rem; */
+    padding: 0.6rem 0.8rem;
+    margin-left: 1rem;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.button:hover,
-.button:active {
-    background: #741188;
-    border-color: #741188;
+.button.solid {
+    background: #1A1B25;
+    border-color: #1A1B25;
+    color: white;
 }
 
-.button:focus {
+.button.solid:hover {
+    /* background: #741188; */
+    /* border-color: #741188; */
+    background: #628395;
+    border-color: #628395;
+}
+
+.button.solid:active {
+    background: #405763;
+    border-color: #405763;
+}
+
+.button.solid:focus {
     outline: none;
+}
+
+.button.outline {
+    background: transparent;
+    border-color: #ccc;
+}
+
+.button.outline:hover,
+.button.outline:active {
+    border-color: #1A1B25;
 }
