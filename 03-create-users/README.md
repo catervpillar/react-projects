@@ -11,3 +11,4 @@ Subsequently, to start the application, use the command:
 `$ npm start`
 
 <img src="screenshots/react-create-user.png">
+<img src="screenshots/react-create-user-modal.png">
