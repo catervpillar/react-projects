@@ -11,3 +11,4 @@ Subsequently, to start the application, use the command:
 `$ npm start`
 
 <img src="screenshots/react-dummy-login.png">
+<img src="screenshots/react-dummy-login-2.png">
