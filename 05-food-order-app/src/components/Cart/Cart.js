@@ -36,7 +36,10 @@ const Cart = (props) => {
         </ul>
     );
 
-    return <Modal onClose={props.onClose}>
+    return <Modal onClose={props.onClose} className={styles.modal}>
+        <header className={styles.header}>
+            <h1>Your Cart</h1>
+        </header>
         {cartItems}
         <div className={styles.total}>
             <span>Total Amount</span>

@@ -1,7 +1,20 @@
+.header {
+    padding: 0 1rem;
+    /* -webkit-box-shadow: 0px 26px 20px -20px rgba(0,0,0,0.57);  */
+    /* box-shadow: 0px 26px 20px -20px rgba(0,0,0,0.57); */
+}
+
+.header h1 {
+    color: #8a2b06;
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .cart-items {
     list-style: none;
     margin: 0;
     padding: 0;
+    padding: 0 1rem;
     max-height: 20rem;
     overflow: auto;
 }
@@ -13,20 +26,23 @@
     font-weight: bold;
     font-size: 1.5rem;
     margin: 1rem 0;
+    padding: 0 1rem;
 }
 
 .actions {
     text-align: right;
+    padding: 1rem;
 }
 
 .actions button {
     font: inherit;
+    font-weight: bold;
     cursor: pointer;
     background-color: transparent;
     border: 1px solid #8a2b06;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 25px;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 .actions button:hover,
