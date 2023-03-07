@@ -1,0 +1,28 @@
+.movie {
+    border: 2px solid #98989874;
+    border-radius: 10px;
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.movie:hover {
+    border-color: #fff;
+}
+
+.movie h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFC500;
+}
+
+.movie h3 {
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+
+.movie p {
+    font-weight: 100;
+}

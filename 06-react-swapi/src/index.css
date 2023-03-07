@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  /* font-family: 'Noto Sans JP', sans-serif; */
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  /* background: #fff; */
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
