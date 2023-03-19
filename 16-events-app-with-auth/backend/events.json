@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"Rave Party","image":"https://i.guim.co.uk/img/media/90c910162013cd9fd6490298f4dc259dc36e4477/0_2648_5786_3472/master/5786.jpg?width=1200&quality=85&auto=format&fit=max&s=0ff87daf46eb817eb4c41d72c77331ee","date":"2023-03-22","description":"A rad rave party with kickass music.","id":"1596865e-1e69-44c0-84e0-5e9b5ae57e08"},{"title":"Pool Party","image":"https://4-celebrations.com/wp-content/uploads/2022/07/comment-organiser-un-pool-party-parfait.jpg","date":"2023-03-25","description":"A fun pool party with music and friends.","id":"97ac5c9b-02df-424c-af5c-271f0b9afc49"}],"users":[{"email":"pippo@gmail.com","password":"$2a$12$5f6Tz2h7/B6Y9PEqsTNLkO6X3V/mp7ErtPPDA8ipKB..oyhym599a","id":"8d46ad6b-a074-4223-b777-82388ae2549d"},{"email":"topolino@gmail.com","password":"$2a$12$0LVP/Ob1J8Ab5XsOaqzXaumaiO6bV2/E8Scz02n7WWAEHrUYbkl2q","id":"200216ba-a869-4ca4-ac51-37fa521e646e"},{"email":"pluto@gmail.com","password":"$2a$12$9Hl3oNM04Xoi4AXxVjteaetlumYIq3d87eYXkkqihgRtLnNnGaHwC","id":"bd20bce7-2db7-4a38-8f55-dbbc4bcd0742"}]}
